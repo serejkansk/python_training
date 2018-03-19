@@ -12,6 +12,7 @@ class Application:
 
     def create_contact(self, group):
         wd = self.wd
+        self.open_add_new_page()
         # fill contact form
         wd.find_element_by_name("firstname").click()
         wd.find_element_by_name("firstname").clear()
@@ -34,6 +35,7 @@ class Application:
 
     def login(self, username, password):
         wd = self.wd
+        self.open_home_page()
         wd.find_element_by_name("user").click()
         wd.find_element_by_name("user").clear()
         wd.find_element_by_name("user").send_keys(username)
