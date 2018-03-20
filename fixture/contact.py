@@ -26,3 +26,12 @@ class ContactHelper:
     def open_add_new_page(self):
         wd = self.app.wd
         wd.find_element_by_link_text("add new").click()
+
+    def delete_first_contact(self):
+        wd = self.app.wd
+        #select first contact
+        wd.find_element_by_name("selected[]").click()
+        # select deleste
+        wd.find_element_by_xpath("//div[@id='content']/form[2]/div[2]/input").click()
+        #podtverdil
+        wd.switch_to_alert().accept()
