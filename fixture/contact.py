@@ -31,7 +31,7 @@ class ContactHelper:
         wd = self.app.wd
         #select first contact
         wd.find_element_by_name("selected[]").click()
-        # select deleste
+        # chose the button delete
         wd.find_element_by_xpath("//div[@id='content']/form[2]/div[2]/input").click()
-        #podtverdil
+        # the confirmation (podtverdil)
         wd.switch_to_alert().accept()
