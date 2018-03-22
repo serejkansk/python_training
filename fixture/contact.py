@@ -51,3 +51,8 @@ class ContactHelper:
         self.fill_contact_form(new_contact_data)
         # submit modification
         wd.find_element_by_name("update").click()
+
+    def count(self):
+        wd = self.app.wd
+        self.open_add_new_page()
+        return len(wd.find_elements_by_name("selected[]"))
