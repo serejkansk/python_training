@@ -1,4 +1,6 @@
 {
+  "test_add_group.py::test_add_empty_group": true,
+  "test_add_group.py::test_add_group": true,
   "test_del_contact.py::test_delete_first_group": true,
   "test_del_group.py::test_delete_group": true
 }
