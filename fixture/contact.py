@@ -46,6 +46,7 @@ class ContactHelper:
 
     def delete_first_contact(self):
         wd = self.app.wd
+        self.open_to_home_page()
         self.select_first_contact()
         wd.find_element_by_xpath("//div[@id='content']/form[2]/div[2]/input").click()
         # the confirmation (podtverdil)
@@ -54,6 +55,7 @@ class ContactHelper:
 
     def modify_first_contact(self, new_contact_data):
         wd = self.app.wd
+        self.open_to_home_page()
         #select first contact
         self.select_first_contact()
         # open modification form
