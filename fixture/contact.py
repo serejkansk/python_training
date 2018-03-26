@@ -10,6 +10,15 @@ class ContactHelper:
         self.fill_contact_form(contact)
         # submit contact creation
         wd.find_element_by_name("submit").click()
+        self.retern_to_home_page()
+
+    def retern_to_home_page(self):
+        wd = self.app.wd
+        wd.find_element_by_link_text("home").click()
+
+    def open_to_home_page(self):
+        wd = self.app.wd
+        wd.find_element_by_link_text("home").click()
 
     def fill_contact_form(self, contact):
         wd = self.app.wd
@@ -40,6 +49,7 @@ class ContactHelper:
         wd.find_element_by_xpath("//div[@id='content']/form[2]/div[2]/input").click()
         # the confirmation (podtverdil)
         wd.switch_to_alert().accept()
+        self.retern_to_home_page()
 
     def modify_first_contact(self, new_contact_data):
         wd = self.app.wd
@@ -51,8 +61,9 @@ class ContactHelper:
         self.fill_contact_form(new_contact_data)
         # submit modification
         wd.find_element_by_name("update").click()
+        self.retern_to_home_page()
 
     def count(self):
         wd = self.app.wd
-        self.open_add_new_page()
+        self.open_to_home_page()
         return len(wd.find_elements_by_name("selected[]"))

@@ -4,6 +4,10 @@ class GroupHelper:
     def __init__(self,app):
         self.app = app
 
+    def open_groups_page(self):
+        wd = self.app.wd
+        wd.find_element_by_link_text("groups").click()
+
     def retern_to_groups_page(self):
         wd = self.app.wd
         wd.find_element_by_link_text("groups").click()
@@ -31,10 +35,6 @@ class GroupHelper:
             wd.find_element_by_name(field_name).click()
             wd.find_element_by_name(field_name).clear()
             wd.find_element_by_name(field_name).send_keys(text)
-
-    def open_groups_page(self):
-            wd = self.app.wd
-            wd.find_element_by_link_text("groups").click()
 
     def select_first_group(self):
         wd = self.app.wd
