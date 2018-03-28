@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="91a8ed93-406c-4136-9722-cc607885e1e8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/fixture/contact.py" afterPath="$PROJECT_DIR$/fixture/contact.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,9 +36,11 @@
       <file leaf-file-name="test_add_contact.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_add_contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <marker date="1522251038804" expanded="true" signature="853:906" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,6 +67,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -421,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522232031815</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Вроде поправил получение контактов.">
+      <created>1522251000326</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1522251000326</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -504,7 +513,8 @@
     <MESSAGE value="Добавил проверки для списка контактов." />
     <MESSAGE value="Добавил проверки для списка групп и контактов, а точнее добавил доп проверку для удаления первого контакта и группы." />
     <MESSAGE value="Добавил проверки для списка групп, а точнее добавил доп проверку для добавления групп." />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил проверки для списка групп, а точнее добавил доп проверку для добавления групп." />
+    <MESSAGE value="Вроде поправил получение контактов." />
+    <option name="LAST_COMMIT_MESSAGE" value="Вроде поправил получение контактов." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -525,7 +535,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1522251038804" expanded="true" signature="853:906" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -569,7 +581,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1522251038804" expanded="true" signature="853:906" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -620,7 +634,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding />
+          <folding>
+            <marker date="1522251038804" expanded="true" signature="853:906" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -636,7 +652,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1522251038804" expanded="true" signature="853:906" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -673,7 +691,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1522251038804" expanded="true" signature="853:906" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -810,9 +830,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_add_contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <marker date="1522251038804" expanded="true" signature="853:906" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
