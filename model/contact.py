@@ -1,3 +1,6 @@
+
+from sys import maxsize
+
 class Contact:
 
     def __init__(self, firstname = None, middlename = None, lastname = None, nickname = None, id = None):
@@ -12,3 +15,9 @@ class Contact:
 
     def __eq__(self, other):
         return (self.id is None or other.id is None or self.id == other.id) and self.lastname == other.lastname
+
+    def id_or_max(self):
+        if self.id:
+            return int(self.id)
+        else:
+            return maxsize

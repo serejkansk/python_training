@@ -78,8 +78,8 @@ class ContactHelper:
         self.open_to_home_page()
         list = []
         for element in wd.find_elements_by_name("entry"):
-            wd.find_elements_by_css_selector("td.center")
-            text = element.text
+            cells = element.find_elements_by_css_selector("td")
+            text = cells[1].text
             id = element.find_element_by_name("selected[]").get_attribute("value")
             list.append(Contact(lastname=text, id=id))
         return list
