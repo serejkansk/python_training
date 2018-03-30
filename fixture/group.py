@@ -48,7 +48,7 @@ class GroupHelper:
 
     def select_group_by_index(self, index):
         wd = self.app.wd
-        # select first group
+        # select some group
         wd.find_elements_by_name("selected[]")[index].click()
 
     def delete_first_group(self):
