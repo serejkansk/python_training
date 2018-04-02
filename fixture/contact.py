@@ -65,13 +65,19 @@ class ContactHelper:
         self.retern_to_home_page()
         self.contact_cache = None
 
-    def modify_first_contact(self, new_contact_data):
+    def modify_first_contact(self):
+        self.modify_contact_by_index(0)
+
+    def modify_contact_by_index(self, index, new_contact_data):
         wd = self.app.wd
         self.open_to_home_page()
         #select first contact
-        self.select_first_contact()
+        self.select_contact_by_index(index)
         # open modification form
-        wd.find_element_by_xpath("//table[@id='maintable']/tbody/tr[2]/td[8]/a/img").click()
+        #wd.find_element_by_xpath("//table[@id='maintable']/tbody/tr[2]/td[8]/a/img").click()
+        row = wd.find_elements_by_name("entry")[index]
+        cell = row.find_elements_by_css_selector("td")[7]
+        cell.find_element_by_tag_name("a").click()
         # fill contact form
         self.fill_contact_form(new_contact_data)
         # submit modification
