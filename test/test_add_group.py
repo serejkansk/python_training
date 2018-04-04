@@ -10,7 +10,7 @@ def random_string(prefix, maxlen):#генератор случайных стр�
 
 testdata = [Group(name="", header="", footer="")] + [
     Group(name=random_string("name", 10), header=random_string("header", 20), footer=random_string("footer", 20))
-    for i in range(5)#сгенерировали случайный обьект 5 раз и по итогу список
+    for i in range(1)#сгенерировали случайный обьект 5 раз и по итогу список
 ]
 
 @pytest.mark.parametrize("group", testdata, ids=[repr(x) for x in testdata])
