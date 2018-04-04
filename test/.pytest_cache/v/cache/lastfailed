@@ -1,8 +1,13 @@
 {
   "test_add_contact.py::test_add_contact[None:firstname0\\\\yG> L;lastname=;middlenameL f G( nickname,J]": true,
+  "test_add_contact.py::test_add_contact[None:firstname;lastnamecOpTlXsT Jvbcam  ;middlenamezpUitAjR r  nicknameF5 wCP k]": true,
+  "test_add_contact.py::test_add_contact[None:firstnameD AG;lastname Zh  LV0Ky;middlenameIVyc4ZH7 nickname LM 2rRI]": true,
   "test_add_contact.py::test_add_contact[None:firstnameEWF ';lastnamemxiH?WmD%[u#S;middlenameD nicknameJN]": true,
   "test_add_contact.py::test_add_contact[None:firstnameEm* Ce;lastnamer>dz /w@g ]S;middlename4Z'h nicknameB]": true,
   "test_add_contact.py::test_add_contact[None:firstnamekr |SQ} ;lastname 6|E;middlename+1 TJ~4uK nicknameBK bQ]": true,
+  "test_add_contact.py::test_add_contact[None:firstnameml4 `C8O ;lastnameY%!YejD045% R J;middlenameqo nickname~]": true,
+  "test_add_contact.py::test_add_contact[None:firstnamezuNj ;lastnameHPp 8;middlenameN nicknameu]": true,
+  "test_add_group.py::test_add_group[None:;;]": true,
   "test_add_group.py::test_add_group[None:name ,3  ;header?HHzx%iQ8` m[h7;footeru7&-  | @~]": true,
   "test_add_group.py::test_add_group[None:name ;headerIN  u8yyQIZA;footerbcxvldd7 Hsl9Hl]": true,
   "test_add_group.py::test_add_group[None:name @VCl5f a;header<'hGTKWuw5a},j vu3.;footer]": true,
@@ -11,6 +16,7 @@
   "test_add_group.py::test_add_group[None:name\"(w2;=  ;header<PF x*Kf;footer|jaQ(B[6\\\\9L?]": true,
   "test_add_group.py::test_add_group[None:name\"?T0+r'S;headerQu:;footerK/^ u2~f! WrA]": true,
   "test_add_group.py::test_add_group[None:name*Ue;header4C>GJ)5w*.r`6vY '# ;footerIQQTHD_Z]": true,
+  "test_add_group.py::test_add_group[None:name0,SckUHM\";headerJ~+ J<pKal,+w j;footerwn$K3Ed%)M(C]": true,
   "test_add_group.py::test_add_group[None:name8. ;header9f`~P/WeQxZ=WFx;footer2{! y\\\\y I @gu]": true,
   "test_add_group.py::test_add_group[None:name8_q0l/<Cn;header;footerk)h-Ji;hs9( 81D)]": true,
   "test_add_group.py::test_add_group[None:name;headerD\"YCBEp!&'Or8;footer! 3wzp|)3J v;ZQW]": true,
@@ -26,5 +32,6 @@
   "test_add_group.py::test_add_group[None:namexr23he ;headertJl9  Xs97lZP;footers amWExk1 NooE diNr]": true,
   "test_del_contact.py::test_delete_first_group": true,
   "test_del_group.py::test_delete_group": true,
+  "test_modify_group.py::test_modify_group_name": true,
   "test_phones.py::test_addreses_on_home_page": true
 }
