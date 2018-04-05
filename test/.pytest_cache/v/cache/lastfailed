@@ -36,6 +36,7 @@
   "test_add_group.py::test_add_group[None:namez,  IE;headerj:2k3n[RZH%N8nq;footer]A&y.#I]": true,
   "test_del_contact.py::test_delete_first_group": true,
   "test_del_group.py::test_delete_group": true,
+  "test_del_group.py::test_delete_some_group": true,
   "test_modify_group.py::test_modify_group_name": true,
   "test_phones.py::test_addreses_on_home_page": true
 }
