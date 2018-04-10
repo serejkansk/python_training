@@ -15,6 +15,8 @@
   "test_add_contact.py::test_add_contact[None:firstnameml4 `C8O ;lastnameY%!YejD045% R J;middlenameqo nickname~]": true,
   "test_add_contact.py::test_add_contact[None:firstnamey_%X K@;lastname  WQA*8qU>+J;middlenameY nicknameh< is@ *p]": true,
   "test_add_contact.py::test_add_contact[None:firstnamezuNj ;lastnameHPp 8;middlenameN nicknameu]": true,
+  "test_add_contact.py::test_add_contact[{'all_emails_from_home_page': None, 'all_phones_from_home_page': None, 'email': None, 'email2': None, 'email3': None, 'firstname': '', 'homephone': None, 'id': None, 'lastname': '', 'middlename': '', 'mobilephone': None, 'nickname': '', 'secondaryphone': None, 'workphone': None}]": true,
+  "test_add_contact.py::test_add_contact[{'all_emails_from_home_page': None, 'all_phones_from_home_page': None, 'email': None, 'email2': None, 'email3': None, 'firstname': 'firstname d/ {l$S', 'homephone': None, 'id': None, 'lastname': 'lastnameI2Ult4', 'middlename': 'middlenameGL%G>-5LZ.m }S', 'mobilephone': None, 'nickname': 'nicknameq5', 'secondaryphone': None, 'workphone': None}]": true,
   "test_add_group.py::test_add_group[None:name ,3  ;header?HHzx%iQ8` m[h7;footeru7&-  | @~]": true,
   "test_add_group.py::test_add_group[None:name ;headerIN  u8yyQIZA;footerbcxvldd7 Hsl9Hl]": true,
   "test_add_group.py::test_add_group[None:name >XO;header 9M;b8*t#l,AX.)Z:r;footerB}<:r\\\\?'Kf` Z47</(]": true,
