@@ -36,9 +36,9 @@ def pytest_addoption(parser):
 
 def pytest_generate_tests(metafunc):
     for fixture in metafunc.fixturenames:
-        if fixture.startswith("data_"):
+        if fixture.startswith("data_"):#пробегаем по всем и интерисуют с префиксом дейта, их  обрабатываем
             testdata = load_form_module(fixture[5:])
-            metafunc.parametrize(fixture, testdata, ids=[str(x) for x in testdata])
+            metafunc.parametrize(fixture, testdata, ids=[str(x) for x in testdata])#для красоты и строковое представление
 
-def load_form_module(module):
+def load_form_module(module):#загружаем данные из модуля с заданным именем
     return importlib.import_module("data.%s" % module).testdata
