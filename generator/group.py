@@ -3,7 +3,7 @@ from model.group import Group
 import random
 import string
 import os.path
-import json
+import jsonpickle
 import getopt
 import sys
 
@@ -13,7 +13,7 @@ except getopt.GetoptError as err:
     getopt.usage()
     sys.exit(2)
 
-n = 2
+n = 1
 f = "data/groups.json"
 
 for o, a in opts:
@@ -24,7 +24,7 @@ for o, a in opts:
 
 
 def random_string(prefix, maxlen):#генератор случайных строк
-    symbols = string.ascii_letters + string.digits + string.punctuation + " "*10#символы, которые собираемся использовать в случайно сгенерированной строке
+    symbols = string.ascii_letters + string.digits + " "*10#символы, которые собираемся использовать в случайно сгенерированной строке
     return prefix + "".join([random.choice(symbols) for i in range(random.randrange(maxlen))])#выбираем символ из заданной стркои случайным образом (многократно), будет сгенерированна случайная длина не превышающая максимальную
 
 testdata = [Group(name="", header="", footer="")] + [
@@ -35,4 +35,5 @@ testdata = [Group(name="", header="", footer="")] + [
 file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", f)#определили путь к файлу
 
 with open(file, "w") as out:
-    out.write(json.dumps(testdata, default=lambda x: x.__dict__, indent=2))#превращает структуру данных в строку в формате json
+    jsonpickle.set_encoder_options("json", indent=2)
+    out.write(jsonpickle.encode(testdata))
