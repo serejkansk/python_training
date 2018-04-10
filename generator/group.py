@@ -22,7 +22,6 @@ for o, a in opts:
     elif o == "-f":
         f = a
 
-
 def random_string(prefix, maxlen):#генератор случайных строк
     symbols = string.ascii_letters + string.digits + " "*10#символы, которые собираемся использовать в случайно сгенерированной строке
     return prefix + "".join([random.choice(symbols) for i in range(random.randrange(maxlen))])#выбираем символ из заданной стркои случайным образом (многократно), будет сгенерированна случайная длина не превышающая максимальную
