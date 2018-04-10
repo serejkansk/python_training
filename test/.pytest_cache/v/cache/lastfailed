@@ -1,6 +1,7 @@
 {
   "test_add_contact.py::test_add_contact[None:firstname\"#\";lastnameyASA  _ ?b0^i;middlename'0\"pv=} 1,a/N nicknameM]": true,
   "test_add_contact.py::test_add_contact[None:firstname(m-;lastname3k&ng|_<OV0+}k%sLAJ;middlename  t, nicknamemZ5X[D]": true,
+  "test_add_contact.py::test_add_contact[None:firstname+c:T(fE[;lastname4F\\\\#9<3Sw]gs^;middlename^Ji.S=<wErXv nickname]": true,
   "test_add_contact.py::test_add_contact[None:firstname,(c?0:hX;lastname,l_MBS X'1l;middlename7gPD/ ; nicknameAm8]": true,
   "test_add_contact.py::test_add_contact[None:firstname/WMj  {;lastname;middlename!2 ^LJ nicknamej ]": true,
   "test_add_contact.py::test_add_contact[None:firstname/t;lastnameo\\\\P+EbiAf( ;middlename fs@ t~ZFa nicknameM-:]": true,
