@@ -1,0 +1,36 @@
+[
+  {
+    "py/object": "model.contact.Contact",
+    "all_emails_from_home_page": null,
+    "all_phones_from_home_page": null,
+    "email": null,
+    "email2": null,
+    "email3": null,
+    "firstname": "",
+    "homephone": null,
+    "id": null,
+    "lastname": "",
+    "middlename": "",
+    "mobilephone": null,
+    "nickname": "",
+    "secondaryphone": null,
+    "workphone": null
+  },
+  {
+    "py/object": "model.contact.Contact",
+    "all_emails_from_home_page": null,
+    "all_phones_from_home_page": null,
+    "email": null,
+    "email2": null,
+    "email3": null,
+    "firstname": "firstname{",
+    "homephone": null,
+    "id": null,
+    "lastname": "lastname ",
+    "middlename": "middlename?US\\DD.7~J9 ",
+    "mobilephone": null,
+    "nickname": "nickname",
+    "secondaryphone": null,
+    "workphone": null
+  }
+]
