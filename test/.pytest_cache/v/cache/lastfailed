@@ -53,6 +53,7 @@
   "test_add_group.py::test_add_group[{'footer': '', 'header': '', 'id': None, 'name': ''}]": true,
   "test_add_group.py::test_add_group[{'footer': 'footer e?E uD9Z  kBSU!', 'header': 'headerk\"}NKTG9WG', 'id': None, 'name': 'nameqzB  UQQ\\\\\\\\'}]": true,
   "test_add_group.py::test_add_group[{'footer': 'footerDhaUt-^M', 'header': 'headeriBQx C!+YsNm`O', 'id': None, 'name': 'name *'}]": true,
+  "test_db_maches_ui.py::test_contac_list": true,
   "test_del_contact.py::test_delete_first_group": true,
   "test_del_group.py::test_delete_group": true,
   "test_phones.py::test_addreses_on_home_page": true,
